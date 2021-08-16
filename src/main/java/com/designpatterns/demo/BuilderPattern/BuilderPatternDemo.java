@@ -7,9 +7,9 @@ package com.designpatterns.demo.BuilderPattern;
  */
 public class BuilderPatternDemo {
     public static void main(String[] args) {
-        com.designpatterns.demo.BuilderPattern.MealBuilder mealBuilder = new com.designpatterns.demo.BuilderPattern.MealBuilder();
+        MealBuilder mealBuilder = new MealBuilder();
 
-        com.designpatterns.demo.BuilderPattern.Meal vegMeal = mealBuilder.prepareVegMeal();
+        Meal vegMeal = mealBuilder.prepareVegMeal();
         System.out.println("Veg Meal");
         vegMeal.showItems();
         System.out.println("Total Cost: " +vegMeal.getCost());
