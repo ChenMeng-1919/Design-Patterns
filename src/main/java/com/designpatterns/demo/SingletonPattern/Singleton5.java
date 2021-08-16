@@ -3,7 +3,7 @@ package com.designpatterns.demo.SingletonPattern;
 /*
  * @author: cm
  * @date: Created in 2021/6/1 11:19
- * @description:登记式/静态内部类
+ * @description:登记式/静态内部类 线程安全
  */
 public class Singleton5 {
     private static class SingletonHolder {
